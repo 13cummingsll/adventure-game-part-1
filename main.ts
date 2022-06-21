@@ -22,8 +22,8 @@ scene.cameraFollowSprite(mySprite)
 if (true) {
     animation.runImageAnimation(
     mySprite,
-    assets.animation`characterfallinganim`,
-    100,
+    assets.animation`characterfallinganim0noblackbox`,
+    200,
     false
     )
     tiles.setCurrentTilemap(tilemap`level2`)
