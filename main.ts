@@ -1,3 +1,10 @@
+scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles10, function (sprite, location) {
+    info.setLife(9)
+    music.playMelody("G F E F G A B C5 ", 120)
+})
+let myEnemy = sprites.create(assets.image`swordEnemy`, SpriteKind.Enemy)
+info.setLife(10)
+let leavel_count = 0
 let mySprite = sprites.create(img`
     . . . . . . f f f f . . . . . . 
     . . . . f f f 2 2 f f f . . . . 
@@ -19,12 +26,14 @@ let mySprite = sprites.create(img`
 controller.moveSprite(mySprite)
 tiles.setCurrentTilemap(tilemap`opening area1`)
 scene.cameraFollowSprite(mySprite)
-if (true) {
-    animation.runImageAnimation(
-    mySprite,
-    assets.animation`characterfallinganim0noblackbox`,
-    200,
-    false
-    )
-    tiles.setCurrentTilemap(tilemap`level2`)
-}
+game.onUpdate(function () {
+    if (info.life() == 9) {
+        animation.runImageAnimation(
+        mySprite,
+        assets.animation`characterfallinganim0noblackbox`,
+        200,
+        false
+        )
+        tiles.setCurrentTilemap(tilemap`level2`)
+    }
+})

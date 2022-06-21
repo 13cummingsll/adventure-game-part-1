@@ -1,4 +1,29 @@
 {
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAPAPAAAAAPD///7gRAAA/+/v7k9NAPD/Lv/k/v8A8O/yv9EuQv//4vL+3yRC/y/i8k7dJFIPL+LyTt0kUg//4vL+3yRC//Dv8r/RLkL/8P8u/+T+/wAA/+7v7k9NAADw///+4EQAAAAA8A8AAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAPD/AAAAAPD//+8PAAAA//7+7g7wDwDv/vJE/v//8O7+8tTuQv/w7u/yTuRCD/Du7/8bTUIP8P4u7//t5A/wLy7v1O3d/vAiLu/U7d3+AC8u/u7/7v8A8O/y/r27DwAA8P//vfsAAAAAAAD/DwAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage0"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAA/w8AAADw//+9+wAA8O/y/r27DwAvLv7u/+7/8CIu79Tt3f7wLy7v1O3d/vD+Lu//7eQP8O7v/xtNQg/w7u/yTuRCD/Du/vLU7kL/AO/+8kT+//8A//7+7g7wDwDw///vDwAAAAAA8P8AAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage1"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAPAPAAAAAPD///7gRAAA/+/v7k9NAPD+Lv/v/v8A8P7yIu/+Qv/v/i7y7v5C/+8v8u7u/kIP7y/y7u7+Qg/v/i7y7v5C//D+8iLv/kL/8P4u/+7+/wAA/+/v7k9NAADw///+4EQAAAAA8A8AAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage2"
+    },
+    "image5": {
+        "data": "hwQQABAAAADw///MzP8AAPD/z7z7/w8A/8y8sREv8gDPPLO7/y8iD8/Mu7v/LyIPAMC8uxEvIg8APLOx/P+yDwDMu7u7u7sPAMDMvLu7uw8A8P+7vLvLDwDwu8u8u/wAAL/LzPz/DwAAvLzLzMwAAPC7zLsMwAAA8MvMzAAAAADwDAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "swordEnemy"
+    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",
